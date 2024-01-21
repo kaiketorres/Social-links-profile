@@ -17,8 +17,8 @@ body{
 
 .photo{
     background: url(assets/images/320383581_531777498918475_7862150766259581343_n.jpg) no-repeat center center /cover;
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     border-radius: 50%;
 }
 
