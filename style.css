@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+body{
+    background-color: #141414;
+    margin: 25px;
+    font-family: 'Inter';
+    color: white;
+}
+
+.photo{
+    background: url(assets/images/320383581_531777498918475_7862150766259581343_n.jpg) no-repeat center center /cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.conf_main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 15px;
+    padding: 0px 20px 0px 20px;
+    background-color: #1F1F1F;
+    width: 327px;
+    height: 576px;
+}
+
+.city{
+    color: #C6E274;
+    font-weight: bold;
+}
+
+.conf_main h2,p{
+    margin-top: 15px;
+}
+
+button{
+    cursor: pointer;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    padding: 15px;
+    margin-top: 15px;
+    background-color: #333333;
+}
+
+.conf_main a{
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+
